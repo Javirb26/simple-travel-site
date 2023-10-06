@@ -22,3 +22,10 @@ main {
 p {
     margin-top: 15%;
 }
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
