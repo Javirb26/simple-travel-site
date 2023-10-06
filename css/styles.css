@@ -1,31 +1,83 @@
-header {
-    text-align: center;
-}
+/* Styles for simple-travel-site */
 
-nav a {
-    margin: 10px;
-}
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
+    /* Styles for Header and Navigation */
 
-a:hover {
-    color: blue;
-}
+    /* centered header text */
+    header {
+        text-align: center;
+    }
 
-main {
-    margin-top: 25%;
-}
+    /* added margin 10px all around nav links */
+    nav a {
+        margin: 10px;
+    }
 
-p {
-    margin-top: 15%;
-}
+    /* removed default link blue color to all a tags */
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
 
-.img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+    /* added blue hover to links when hovering over all links */
+    a:hover {
+        color: blue;
+    }
+
+    /* END OF: Styles for Header and Navigation */
+
+
+    /* Styles for MAIN section */
+
+    /* added 10% top and bottom margin to .para div wrapped around both p elements */
+    .para {
+        margin: 10% 0;
+    }
+
+    /* 15% top margin added specifically to p elements */
+    p {
+        margin-top: 15%;
+    }
+
+    /* Made .img div flex and centered as well as added wrap to images */
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    /* END OF: Styles for MAIN section */
+
+
+    /* Styles for contact info Table */
+
+    /* added border around table made table flex and centered table*/
+    table {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* centered h3 element */
+    h3 {
+        text-align: center;
+    }
+    /* End OF: centered h3 element */
+
+    /* added 5% padding around and bottom border to Table header */
+    th {
+        border-bottom: 1px solid black;
+        padding: 5px;
+    }
+
+    /* added 5% padding around and border fully around Table data*/
+    td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    /* END OF: Styles for contact info Table */
+
+
+/* END OF STYLES */
