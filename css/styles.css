@@ -40,9 +40,9 @@
         margin: 10% 2%;
     }
 
-    /* 15% top margin added specifically to p elements */
+    /* 8% top margin added specifically to p elements */
     p {
-        margin-top: 15%;
+        margin-top: 8%;
     }
 
     /* Made .img div flex and centered as well as added wrap to images and 25% top/bottom margin and 3% left/right margin */
@@ -64,15 +64,16 @@
 
     /* Styles for contact info Table */
 
-    /* Made .table display flex and centered table*/
+    /* Made .table display flex and centered table */
     .table {
         display: flex;
         justify-content: center;
     }
 
-    /* added border around table made table flex and centered table*/
+    /* added 5% bottom margin and a border around table */
     table {
         border: 1px solid black;
+        margin-bottom: 5%;
     }
 
     /* centered h3 element */
