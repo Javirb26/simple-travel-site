@@ -1,6 +1,11 @@
 /* Styles for simple-travel-site */
 
-
+    /* Styles for body */
+    body {
+        height: 100vh;
+    }
+    /* END OF: Styles for body */
+    
     /* Styles for Header and Navigation */
 
     /* centered header text */
@@ -8,15 +13,16 @@
         text-align: center;
     }
 
-    /* added margin 10px all around nav links */
+    /* added margin 10px top and bottom and 2% left and right nav links */
     nav a {
-        margin: 10px;
+        margin: 10px 2%;
     }
 
     /* removed default link blue color to all a tags */
     a {
         color: inherit;
         text-decoration: none;
+
     }
 
     /* added blue hover to links when hovering over all links */
@@ -29,9 +35,9 @@
 
     /* Styles for MAIN section */
 
-    /* added 10% top and bottom margin to .para div wrapped around both p elements */
+    /* added 10% top and bottom margin and 2% left and right margin to .para div wrapped around both p elements */
     .para {
-        margin: 10% 0;
+        margin: 10% 2%;
     }
 
     /* 15% top margin added specifically to p elements */
@@ -52,11 +58,15 @@
 
     /* Styles for contact info Table */
 
+    /* Made .table display flex and centered table*/
+    .table {
+        display: flex;
+        justify-content: center;
+    }
+
     /* added border around table made table flex and centered table*/
     table {
         border: 1px solid black;
-        display: flex;
-        justify-content: center;
     }
 
     /* centered h3 element */
