@@ -45,12 +45,17 @@
         margin-top: 15%;
     }
 
-    /* Made .img div flex and centered as well as added wrap to images */
+    /* Made .img div flex and centered as well as added wrap to images and 25% top/bottom margin and 3% left/right margin */
     .img {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        margin: 25% 3%;
+    }
+    /* Added 2% margin all around each image */
+    img {
+        margin: 2%;
     }
 
     /* END OF: Styles for MAIN section */
